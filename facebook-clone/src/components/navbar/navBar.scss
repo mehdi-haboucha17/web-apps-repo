@@ -1,0 +1,53 @@
+.navbar-main {
+  // background-color: green;
+  border-bottom: 1px solid #dbdbde;
+  .navbar-left {
+    // background-color: red;
+    display: flex;
+
+    img {
+      margin: 8px 10px 8px 16px;
+    }
+    .navbar-search {
+      height: 35px;
+      width: 220px;
+      border-radius: 25px;
+      border: 0;
+      background-color: #eff2f5;
+      font-size: 16px;
+      padding-left: 30px;
+      margin-top: 8px;
+    }
+  }
+  .navbar-container {
+    // background-color: red;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 60px;
+    .navbar-tabs {
+      //   background-color: aqua;
+      width: 120px;
+      height: 45px;
+      &:active {
+        border-bottom: 3px solid #1b77f2;
+      }
+    }
+  }
+  .navbar-right {
+    .navbar-right-tab {
+      display: flex;
+      margin-left: 40px;
+      //   background-color: red;
+      .navbar-right-avatar {
+        margin-top: 10px;
+        margin-right: 10px;
+        max-width: 30px;
+        max-height: 30px;
+      }
+      .navbar-profilename {
+        margin-top: 15px;
+        font-weight: 600;
+      }
+    }
+  }
+}
