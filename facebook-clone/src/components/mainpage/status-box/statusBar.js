@@ -8,6 +8,14 @@ const StatusBar = () => {
       <Status />
       <Status />
       <Status />
+      <Status />
+      <Status />
+      <Status />
+      <Status />
+      <Status />
+      <Status />
+      <Status />
+      <Status />
     </div>
   );
 };
