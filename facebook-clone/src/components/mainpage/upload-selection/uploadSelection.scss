@@ -1,0 +1,44 @@
+.upload-selection-parent-container {
+  display: flex;
+
+  .upload-selection-container {
+    height: 120px;
+    width: 600px;
+    border-radius: 15px;
+  }
+
+  .upload-selection-bottom {
+    display: flex;
+    border-top: 1px solid #e3e6ea;
+    padding: 5px;
+    background-color: #ffffff;
+    margin-left: 60px;
+    padding-top: 5px;
+    .upload-selection-bottom-tabs {
+      display: flex;
+      width: 150px;
+      align-items: center;
+      .upload-selection-bottom-text {
+        margin: 5px;
+        font-size: 13px;
+      }
+    }
+  }
+}
+.upload-selection-top {
+  display: flex;
+  .upload-selection-img {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .upload-selection-box {
+    height: 40px;
+    width: 400px;
+    background-color: #eff2f5;
+    border: 0;
+    border-radius: 30px;
+    font-size: 16px;
+    padding-left: 20px;
+    margin: 15px;
+  }
+}

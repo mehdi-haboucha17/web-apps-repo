@@ -1,6 +1,10 @@
 .image-layout-container {
   display: flex;
-  margin: 15px;
+  // margin: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+
   .image-layout-imgplay {
     .image-layout-img {
       max-height: 35px;

@@ -1,0 +1,19 @@
+.right-side-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+  flex-direction: column;
+  align-items: center;
+  // background-color: red;
+
+  .right-side-header {
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 70px;
+  }
+  .right-side-content {
+  }
+}

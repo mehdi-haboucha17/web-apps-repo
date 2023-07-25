@@ -1,7 +1,14 @@
 .mainpage-container {
-  height: 650px;
+  height: 100%;
   background-color: #eff2f5;
+  .mainpage {
+    display: flex;
+    justify-content: space-between;
+  }
   .middle-container {
-    margin-left: 50px !important;
+    // margin-left: 50px !important;
+    overflow-y: scroll hidden;
+    height: 100%;
+    max-width: 600px !important;
   }
 }

@@ -1,0 +1,73 @@
+.post-contaner-parent {
+  margin-bottom: 20px;
+  .post-container {
+    // height: 600px;
+    width: 600px;
+    margin-top: 20px;
+    border-radius: 20px;
+    .post-header {
+      display: flex;
+      // background-color: antiquewhite;
+      height: 50px;
+      .post-header-avatar-container {
+        .post-header-avatar {
+          margin: 15px;
+        }
+      }
+      .post-header-name-container {
+        font-weight: 700;
+        margin-top: 20px;
+        font-size: 14px;
+      }
+    }
+    .post-description {
+      display: flex;
+      margin-left: 15px;
+      margin-top: 15px;
+    }
+    .post-image {
+      margin: 10px 0px;
+    }
+    .post-likes-container {
+      display: flex;
+      height: 40px;
+      padding: 0 10px;
+      align-content: center;
+      border-bottom: 1px solid #cdd0d4;
+      .post-likes-image {
+        height: 20px;
+        img {
+          width: 30px;
+        }
+      }
+      .post-likes-text {
+        margin-top: 3px;
+        padding: 0px 10px;
+        font-weight: 600;
+      }
+    }
+    .post-likes-box-container {
+      display: flex;
+      height: 50px;
+      align-items: center;
+      justify-content: space-around;
+      .post-likes-box {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+        .post-likes-box-image-container {
+          img {
+            width: 22px;
+          }
+        }
+        .post-likes-box-text {
+          margin-left: 5px;
+        }
+      }
+    }
+    .post-comment-box {
+      border-top: 1px solid #cdd0d4;
+    }
+  }
+}
