@@ -1,0 +1,85 @@
+.navbar-main {
+  border-bottom: 1px solid #dbdbde;
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    .navbar-left-img {
+      display: flex;
+      align-items: center;
+    }
+    .navbar-left-search {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 0.5rem;
+      padding: 0.5rem;
+      background-color: #f0f0f0;
+      border-radius: 200px;
+      .navbar-left-search-icon {
+        height: 1.5rem;
+        color: #718096;
+      }
+      input[type="text"] {
+        display: flex;
+        align-items: center;
+        margin-left: 0.5rem;
+        border: transparent;
+        outline: none;
+        background-color: transparent;
+        color: #a3a3a3;
+      }
+    }
+  }
+  .navbar-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    // flex-grow: 3;
+    .navbar-center-icons {
+      display: flex;
+    }
+    .navbar-center-icons > *:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+}
+
+.header-icon-container {
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  cursor: pointer;
+  &:active {
+    border-bottom: 2px solid #1b77f2;
+  }
+  .header-icon {
+    height: 1.25rem;
+    &:hover {
+      color: #1b77f2;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .header-icon-container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    &:hover {
+      background-color: #f7fafc;
+    }
+  }
+
+  .navbar-center-icons > *:not(:last-child) {
+    margin-right: 0.5rem; /* Replace with the desired spacing value, e.g., 0.5rem for 2 */
+  }
+}
+@media (min-width: 640px) {
+  .header-icon-container {
+    .header-icon {
+      height: 1.75rem; /* Replace with the desired height value, e.g., 1.75rem for h-7 */
+      margin-left: auto;
+      margin-right: auto;
+    }
+    height: 3.5rem; /* Replace with the desired height value, e.g., 3.5rem for h-14 */
+  }
+}
